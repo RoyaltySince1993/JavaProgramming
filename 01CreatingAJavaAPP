@@ -1,0 +1,30 @@
+//Name of the Class (Must be same name as .java and .class File)
+
+//This tells us that the filename is called HelloWorld and therefore must use the identifier HelloWorld  as Class
+
+//Each method, variables and Code Blocks must be written inside the class
+
+public class HelloWorld
+//public means that this class can be access by other class clases or packages
+//class is a Java Keyword - Keywords are identifier which has special function or meaning.
+//HelloWorld is the name of class and must be the same name as .java and .class file
+
+{ //This is the start of the HelloWorld Class meaning that everything inside the code block is declared as part of the HelloWorld Class 
+  
+  //Every Java Program Starts with the method main
+  
+  //Its static so it doesnt create multiple copies of the method. This means that when the program runs the JVM wont have any trouble
+  //Finding the main Class to start the program.
+  
+  //Its public so it can be accessed by the JVM
+  
+  //Its void because it doesnt need to return value.
+  
+  //args - refers to command line arguement. Its string so that command line arguement will accept letters and numbers.
+  
+  public static void main (String[] args)
+  {
+  
+  }
+
+} //This is the end of the Hello World Class meaning that every code that exceeds this class will not be executed

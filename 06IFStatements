@@ -1,0 +1,19 @@
+public class HelloWorld
+{
+  public static void main (String[] args)
+  {
+    int age = 22;
+    
+    //if condition is true execute statement
+    if (age == 22)
+    {
+      System.out.println("You are Old!");
+    }
+    //if the condition of if Statement is not true this code will be executed
+    else
+    {
+    	System.out.println("You are young!");
+    }
+    
+  }
+}

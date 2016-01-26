@@ -1,0 +1,15 @@
+public class HelloWorld
+{
+  public static void main (String[] args)
+  {
+    //Declaring and Assigning Variables
+    String Name = "Prince";
+    int Age = 22;
+    String Bday = "August 27 1993";
+    
+    //Displays our Variables
+    System.out.println("Your name is " + Name);
+    System.out.println("You are " + Age + " Years old!");
+    System.out.println("Your birthday is: " + Bday);
+  }
+}

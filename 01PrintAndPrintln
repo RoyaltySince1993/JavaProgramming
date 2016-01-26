@@ -1,0 +1,10 @@
+public class HelloWorld
+{
+  public static void main (String [] args)
+  {
+    System.out.print(""); //This will print the message and will display cursor on the same line
+    System.out.println(""); //This will print the message and will display cursor on the next line
+    
+    System out - is from the JAVA API (Application Programming Interface) which gives access to usable code within Java
+  }
+}

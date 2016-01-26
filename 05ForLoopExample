@@ -1,0 +1,11 @@
+public class HelloWorld
+{
+  public static void main (String[] args)
+  {
+    for (int counter = 1; counter <= 5; counter++)
+    {
+    //This counts 1 - 5
+      System.out.print(counter + "\n");
+    }
+  }
+}

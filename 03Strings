@@ -1,0 +1,22 @@
+public class HelloWorld
+{
+  public static void main (String [] args)
+  {
+  
+  //This declares a variable String called Greetings
+  //And the Greetings contains a value of You Are 
+  
+    String Greetings = "You Are ";
+    int age = 5;
+    String Years = " Years Old!";
+    
+    //We have a string that will show all the values of our Variables
+    
+    String HelloWorld = Greetings + age + Years;
+    
+    //Now we have to print the Variable HelloWorld that contains all our Variable
+    System.out.println(HelloWorld);
+    
+    //Note: Strings can be used to combine all attributes together. similar to println!
+  }
+}

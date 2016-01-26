@@ -1,0 +1,16 @@
+public class HelloWorld
+{
+  public static void main (String [] args)
+  {
+    int Count = 1;
+    
+    //This is use to execute the while loop 10 times and the Count starts from 1
+    // it should print 1 - 10
+    //if i decided to make Count 0 - Loop will run 11 Times
+    while (Count <= 10)
+    {
+      System.out.println(Count);
+      Count++;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+public class HelloWorld
+{
+  public static void main (String [] args)
+  {
+  
+    //int Counter - a Variable declared inside for loop
+    //Counter <= 10 - as long as this statement is true keep executing this for loop
+    //Counter++ - How much the loop is incremented everytime it is executed
+    
+    for (int Counter = 1; Counter <= 10; Counter++ )
+    {
+      System.out.println("Hello World" + Counter);
+    }
+    
+    //This for loop will keep incrementing 5 to the Counter (Starts at 1) until it reaches equal or more than 10  
+    //In other words loop will execute 1 (1 time) 1 + 5 = 6 (2 times) and 6 + 5 = 11(Has gone pass the statement therefore the loop will only
+    be executed twice!)
+    
+    for (int Counter = 1; Counter <= 10; Counter+=5 )
+    {
+      System.out.println("Hello World" + Counter);
+    }
+    
+    //Note that this for loop will be executed starting from 1
+    
+    
+  }
+}

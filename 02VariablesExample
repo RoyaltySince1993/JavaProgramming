@@ -1,0 +1,16 @@
+public class HelloWorld
+{
+  public static void main (String [] args)
+  {
+    //Declaring Variables
+    //This tells the computer we have two INT Variables (Stores Whole Numbers). the firstNumber is assigned a value of 1 and the 
+    //secondNumber is assigned a value of two. The int total variable is used to add firstNumber and secondNumber together.
+    
+    //the println statement will print the variable total. which equals to the value of firstNumber plus secondNumber
+    int firstNumber = 1;
+    int secondNumber = 2;
+    int total = firstNumber + secondNumber;
+   
+    System.out.println(total);
+  }
+}

@@ -1,0 +1,28 @@
+public class HelloWorld
+{
+  public static void main (Static [] args)
+  {
+  
+  //Variables are the name of the storage location
+  //Variables can be declared with many different data types such as int char boolean etc
+  //Variables must be stored with value that is equivalent to the same type it was declared
+  //For example if the variable was declared as INT only numbers can be stored in the variable
+  
+  //Types of Variables
+  
+  //Variables that stores Numbers
+    byte myByte = 127;
+    int myNumber = 88;
+    short myShort = 847;
+    long myLong = 9797;
+  //Variables that stores Decimals      
+    double myDouble = 7.3243;
+    float myFloat = 324.3f;
+  //Other types of Variables      
+    char myChar = 'y';
+    boolean myBoolean = false;
+        
+       
+  }
+
+}

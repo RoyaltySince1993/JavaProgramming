@@ -12,6 +12,7 @@ public class HelloWorld
     }
     
     //while TestLoop is less than or equal to 10 keep executing this code!! until it reaches 10.
+    //this will be executed 11 times due to the fact that TestLoop starts from 0
     while (TestLoop <= 10)
     {
       System.out.println("Hello There!");

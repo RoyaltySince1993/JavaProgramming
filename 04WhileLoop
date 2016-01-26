@@ -1,0 +1,28 @@
+public class HelloWorld
+{
+  public static void main (String [] args)
+  {
+    boolean Truth = true;
+    int TestLoop = 0;
+    
+    //Will be executed infinite amount of times due to the fact that while loop didnt have a condition to set it off
+    while (Truth == true)
+    {
+      System.out.println("Hello There!");
+    }
+    
+    //while TestLoop is less than or equal to 10 keep executing this code!! until it reaches 10.
+    while (TestLoop <= 10)
+    {
+      System.out.println("Hello There!");
+      //This will add 1 to the Test Loop INT Variable everytime the loop runs
+      TestLoop++;
+    }
+    
+    //Note: While loop will keep executing until the condition has been met!
+    //If no condition the loop will run infinite amount of times!
+    
+    
+    
+  }
+}
